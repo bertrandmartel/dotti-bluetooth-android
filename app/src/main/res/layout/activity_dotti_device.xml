@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Bertrand Martel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-->
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical">
+
+		<ToggleButton
+			android:id="@+id/ledButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:text="New ToggleButton"
+			android:textAllCaps="false"
+			android:textOff="switch OFF"
+			android:textOn="switch ON"
+			android:layout_marginTop="5dp"/>
+
+		<SeekBar
+			android:id="@+id/intensity_bar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:orientation="vertical">
+
+			<com.larswerkman.holocolorpicker.ColorPicker
+				android:id="@+id/picker"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:id="@+id/button_pick"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:background="@drawable/button_border"
+				/>
+
+			<TableLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<TableRow
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<Button
+						android:id="@+id/button0"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button1"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button2"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button3"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button4"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button5"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button6"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button7"
+						android:layout_weight="1" android:onClick="pixelClick" />
+				</TableRow>
+
+				<TableRow
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<Button
+						android:id="@+id/button8"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button9"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button10"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button11"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button12"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button13"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button14"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button15"
+						android:layout_weight="1" android:onClick="pixelClick" />
+				</TableRow>
+
+				<TableRow
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<Button
+						android:id="@+id/button16"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button17"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button18"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button19"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button20"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button21"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button22"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button23"
+						android:layout_weight="1" android:onClick="pixelClick" />
+				</TableRow>
+
+				<TableRow
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<Button
+						android:id="@+id/button24"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button25"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button26"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button27"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button28"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button29"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button30"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button31"
+						android:layout_weight="1" android:onClick="pixelClick" />
+				</TableRow>
+
+				<TableRow
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<Button
+						android:id="@+id/button32"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button33"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button34"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button35"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button36"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button37"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button38"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button39"
+						android:layout_weight="1" android:onClick="pixelClick" />
+				</TableRow>
+
+				<TableRow
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<Button
+						android:id="@+id/button40"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button41"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button42"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button43"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button44"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button45"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button46"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button47"
+						android:layout_weight="1" android:onClick="pixelClick" />
+				</TableRow>
+
+				<TableRow
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<Button
+						android:id="@+id/button48"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button49"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button50"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button51"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button52"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button53"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button54"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button55"
+						android:layout_weight="1" android:onClick="pixelClick" />
+				</TableRow>
+
+				<TableRow
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<Button
+						android:id="@+id/button56"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button57"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button58"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button59"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button60"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button61"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button62"
+						android:layout_weight="1" android:onClick="pixelClick" />
+
+					<Button
+						android:id="@+id/button63"
+						android:layout_weight="1" android:onClick="pixelClick" />
+				</TableRow>
+			</TableLayout>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Icon slot selection"/>
+
+			<TableLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<TableRow
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+					<Button
+						android:id="@+id/buttonIcon0"
+						android:layout_weight="1"
+						android:onClick="pictureClick"
+						android:text="0"/>
+					<Button
+						android:id="@+id/buttonIcon1"
+						android:layout_weight="1"
+						android:onClick="pictureClick"
+						android:text="1"/>
+					<Button
+						android:id="@+id/buttonIcon2"
+						android:layout_weight="1"
+						android:onClick="pictureClick"
+						android:text="2"/>
+					<Button
+						android:id="@+id/buttonIcon3"
+						android:layout_weight="1"
+						android:onClick="pictureClick"
+						android:text="3"/>
+					<Button
+						android:id="@+id/buttonIcon4"
+						android:layout_weight="1"
+						android:onClick="pictureClick"
+						android:text="4"/>
+					<Button
+						android:id="@+id/buttonIcon5"
+						android:layout_weight="1"
+						android:onClick="pictureClick"
+						android:text="5"/>
+					<Button
+						android:id="@+id/buttonIcon6"
+						android:layout_weight="1"
+						android:onClick="pictureClick"
+						android:text="6"/>
+					<Button
+						android:id="@+id/buttonIcon7"
+						android:layout_weight="1"
+						android:onClick="pictureClick"
+						android:text="7"/>
+				</TableRow>
+			</TableLayout>
+
+			<TableLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<TableRow
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+					<Button
+						android:id="@+id/buttonPhoneRing"
+						android:layout_weight="1"
+						android:text="phone ringing"/>
+					<Button
+						android:id="@+id/buttonMissedCall"
+						android:layout_weight="1"
+						android:text="missed call"/>
+					<Button
+						android:id="@+id/buttonMessage"
+						android:layout_weight="1"
+						android:text="message"/>
+				</TableRow>
+			</TableLayout>
+
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

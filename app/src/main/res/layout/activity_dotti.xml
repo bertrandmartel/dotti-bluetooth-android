@@ -1,0 +1,62 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/drawer_layout"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".Dotti">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+    <RelativeLayout android:id="@+id/container" android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan now"
+            android:id="@+id/scanning_button"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_alignTop="@+id/stop_scanning_button"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop scan"
+            android:id="@+id/stop_scanning_button"
+            android:layout_gravity="right|top"
+            android:layout_toEndOf="@+id/scanning_button"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:layout_below="@+id/scanning_button"
+            android:layout_alignParentStart="true" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/scanningProgress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/scanText"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/listView"
+            android:textColor="#ff000000"
+            android:textSize="20dp"
+            android:gravity="center_vertical|left"
+            android:layout_toEndOf="@+id/stop_scanning_button" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

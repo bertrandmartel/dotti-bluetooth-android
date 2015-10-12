@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/abathur/Bureau/open_source/bluetooth-dotti/app/build/intermediates/exploded-aar/com.larswerkman/HoloColorPicker/1.5/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ffaf68fa06f0339acf8f44d7b8c21d5c0501692b">
+        <dex dex="/home/abathur/Bureau/open_source/bluetooth-dotti/app/build/intermediates/pre-dexed/debug/classes-99a71951190aff94c8247b81b25850fe1ae45fa9.jar" />
+    </item>
+
+</items>
