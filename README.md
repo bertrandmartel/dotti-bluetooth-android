@@ -39,7 +39,7 @@ Characteristics on Dotti cant be read on current device firmware. Previous state
 
 Device specification : http://wittidesign.com/en/dotti/
 
-![screenshot](https://raw.github.com/akinaru/dotti-bluetooth-android/master/dotti1.jpg)
+![screenshot](https://raw.github.com/bertrandmartel/dotti-bluetooth-android/master/dotti1.jpg)
 
-![screenshot](https://raw.github.com/akinaru/dotti-bluetooth-android/master/dotti2.jpg)
+![screenshot](https://raw.github.com/bertrandmartel/dotti-bluetooth-android/master/dotti2.jpg)
 
